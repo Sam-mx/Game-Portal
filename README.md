@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+<h2 align="center">
+  Sam Game Portal<br/>
+  <a href="https://sam-game-portal.vercel.app/" target="_blank">Demo's Here</a>
+</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Sam Game Portal is a web application that allows users to search for games based on genres, platforms, release dates, and ratings. It provides a convenient way to explore and find games that match your preferences.
+It is inspired by some youtubers and github repositories. I appreciated them to let me create this application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Search for games by genre, platform, release date, and rating.
+- Sort search results by popularity, release date, or rating.
+- User-friendly interface for easy navigation.
 
-## Expanding the ESLint configuration
+## Tech Stacks Used:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- `React.js`
+- `TypeScript`
+- `vite`
+- `chakra-ui`
+- `API`
 
-- Configure the top-level `parserOptions` property like this:
+## API Used:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+https://rawg.io/
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Screenshot
+
+![sam-game](https://github.com/Sam-mx/Game-Portal/assets/146705452/44b31533-1ee7-4972-a3fa-c7865e0dc1ef)
+
+
+
+
